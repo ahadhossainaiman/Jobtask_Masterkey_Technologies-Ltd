@@ -1,8 +1,26 @@
-# React + Vite
+# React Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains two React projects: Recursive-partitioning and Alphabet Tile Interaction.
 
-Currently, two official plugins are available:
+## Recursive-partitioning
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A responsive layout builder that allows partitions to be split vertically or horizontally, resized, and removed.
+
+### Features
+
+1. Initial partition with random color.
+2. Vertical (`V`) and horizontal (`H`) split buttons.
+3. Retain color for one partition; assign new color to new partition.
+4. Recursive splitting of partitions.
+5. Remove any partition using a `-` button.
+6. Resizable partitions via click and drag.
+7. Optional snapping to 1/4, 1/2, and 3/4 ratios.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ahadhossainaiman/Jobtask_Masterkey_Technologies-Ltd.git
+
+   ```
