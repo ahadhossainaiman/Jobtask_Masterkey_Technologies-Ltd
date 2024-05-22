@@ -43,4 +43,4 @@ A responsive layout builder that allows partitions to be split vertically or hor
    git clone https://github.com/ahadhossainaiman/Jobtask_Masterkey_Technologies-Ltd.git
    ```
 
-### live-link:
+### live-link: https://recursive-partitioning.netlify.app/
