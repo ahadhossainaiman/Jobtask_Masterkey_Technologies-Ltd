@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recursive Partitioning</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      #container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .partition {
+        position: relative;
+        border: 1px solid #000;
+        display: flex;
+        flex: 1;
+      }
+      .controls {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 5px;
+        display: flex;
+        gap: 5px;
+        z-index: 1;
+      }
+      .resizer {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+      .resizer.horizontal {
+        height: 5px;
+        width: 100%;
+        cursor: row-resize;
+        bottom: 0;
+      }
+      .resizer.vertical {
+        width: 5px;
+        height: 100%;
+        cursor: col-resize;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
